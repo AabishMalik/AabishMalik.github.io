@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aabish Malik</title>
+</head>
+
+<body>
+  <link rel="stylesheet" href="style.css">
+  <div class="root">
+    <div class="header">
+      <div class="header_left">
+        <div class="profile">
+          <img
+            src="https://media.licdn.com/dms/image/v2/D4D03AQE_TQwyxfEPrw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1700661294437?e=1737590400&v=beta&t=4IrU0GOmZPPpMk8tJukpVKNkEAv6KHeQmy98CkSnt8E">
+          <div>
+            <h3>
+              Hi, I'm Aabish Malik<br>
+            </h3>
+            <h4>
+              I am a Computer Science student from India
+            </h4>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="main">
+      <div id="about">
+        <div id="languages">
+          <h3> I'm Proficient in </h3>
+          <div class="languages">
+            <div class="language">
+              <img src="/assets/javascript.svg">
+              <p>JavaScript</p>
+            </div>
+            <div class="language">
+              <img src="/assets/python.svg">
+              <p>Python</p>
+            </div>
+            <div class="language">
+              <img src="/assets/c.svg">
+              <p>C</p>
+            </div>
+            <div class="language">
+              <img src="/assets/rust.svg">
+              <p>Rust</p>
+            </div>  
+          </div>
+          <hr>
+          <h3> Take a look at some of my projects </h3>
+          <div class="projects">
+            <a class="project" href="https://github.com/opticXC/gekko" target="_blank">
+              <h4>Gekko</h4>
+              <h6> A template? for a Rocket.rs + React web app  </h6>
+            </a>
+            <a class="project" href="https://github.com/opticXC/node-graphs.c" target="_blank">
+              <h4>Node Graphs</h4>
+              <h6> A simple graph library for C </h6>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+      <div>
+        <h3> Find me here!</h3>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/Aabish-Malik/" target="_blank" class="header_link">
+            <img
+              src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png">
+          </a>
+          <a href="https://www.github.com/opticXC/" target="_blank" class="header_link">
+            <img src="/assets/github.svg">
+          </a>
+        </div>
+        <div  class="contact" >
+          <h3> Or Leave a message </h3>
+          <input class="email-input" id="email-inp" type="text" inputmode="email"  placeholder="Email" required>
+          <textarea class="message-box" id="msg-box-inp" placeholder="Message" required></textarea>
+          <button onclick={handleSendMessage();} >Send</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+
+</body>
+
+</html>
